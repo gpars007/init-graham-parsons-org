@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.org/"
+baseURL = "https://vibrant-bohr-d2aa5b.netlify.com"
 languageCode = "en-US"
 title = "Graham Parsons - Home"
 theme = "split"
