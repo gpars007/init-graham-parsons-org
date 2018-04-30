@@ -1,0 +1,74 @@
+# Site settings
+baseURL = "https://example.org/"
+languageCode = "en-US"
+title = "Graham Parsons - Home"
+theme = "split"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Graham Parsons"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Graham Parsons"
+  description = "This is the homepage for Graham Parsons, a data analyst, and a future blog site"
+  shareImage = "images/social.jpg"
+  twitterHandle = "gpsuperg"
+
+  # Favicon
+  favicon = "g_logo.ico"
+
+  # Section - Content
+  [params.content]
+    name = "Graham Parsons"
+    tagline = "Data Analyst"
+    bio = "Graham works as a data analyst in Bowling Green, Ohio at [Principle Business Enterprises](http://www.principlebusinessenterprises.com/). He is a user of the [R](https://www.r-project.org/) and [Python](https://www.python.org/) programming langugages for data science and for general purpose programming, and is anticipating making a blog site at this URL in the near future. Contact me in the links below!"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/image.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:graham@grahamparsons.org"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text ="Twitter"
+        url = "https://twitter.com/gpsuperg"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
